@@ -15,7 +15,7 @@
     float: right;
 
     // target adjacent core layout element
-    + #list-area {
+    ~ #list-area {
       width: calc(75% - 2.5em);
       float: left;
     }
